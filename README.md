@@ -25,7 +25,7 @@ Diretório do progeto original feiro pelo professor. [clique aqui](https://githu
 - CodePen:
     https://codepen.io/luizomf/full/KKNwMeG
 
-#### **Imagens SVG**
+#### **Links - Imagens SVG**
 - Background SVG:
     https://www.svgbackgrounds.com/#confetti-doodles
 - Download SVG:
