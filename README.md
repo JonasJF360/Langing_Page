@@ -1,6 +1,8 @@
 # Langing Page
 Este é um progeto de uma Landing Page utilizando HTML5 e CSS3.
 
+Para visualisar a página [clique aui.](https://jonasjf360.github.io/Langing_Page/)
+
 Baseado no exemplo do curso de [Javascritp + Typescript](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/?src=sac&kw=Curso+de+JavaScript+e+TypeScript+do+b%C3%A1sico+ao+avan%C3%A7ado+2022) que estou cursando.
 
 Diretório do progeto original feiro pelo professor. [clique aqui](https://github.com/luizomf/landing-page-cursojs)
