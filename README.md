@@ -1,5 +1,5 @@
 # Langing Page
-Este é um projeto de uma Landing Page utilizando HTML5 e CSS3.
+Este é um projeto de uma Landing Page utilizando apenas HTML5, CSS3 e o mínimo de Javascript.
 
 Para visualisar a página [clique aqui.](https://jonasjf360.github.io/Langing_Page/)
 
