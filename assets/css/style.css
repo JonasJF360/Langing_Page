@@ -411,6 +411,24 @@ body .full-width {
     display: none;
 }
 
+.back-to-top {
+    text-decoration: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--white-color);
+    width: 5rem;
+    height: 5rem;
+    transform:rotate(-90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.2rem;
+    border-radius: 50%;
+    color: var(--primary-color);
+    border: 0.01rem solid var(--light-gray-color);
+}
+
 /* Configurações das 'midea queries' */
 @media (max-width: 800px) {
 
