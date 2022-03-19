@@ -15,18 +15,205 @@
 </head>
 
 <body>
-    <section class="main-bg section">
-        <div class="main-content">
-            <h1>Loren</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem eos fugit eum, labore voluptas quibusdam debitis, alias, maxime esse fugiat error earum magni blanditiis explicabo autem quisquam atque est mollitia?</p>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="Close menu"></label>
+    <div class="bg-fixado"></div>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1><a href="#home">Home</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#top3">Top3</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#pricing">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Minha Landing Page</h2>
+                <p>Olá, seja bem vindo, meu nome é Jonas de Jesus Ferreira e essa é a minha primeira Landing Page usando
+                    apenas HTML5 e CSS3.</p>
+                <p>Estou fazendo essa página baseada na do professor Luiz Otávio do curso de JavaScript + Tipescript que
+                    estou fazendo na Udemy.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript.svg"
+                    alt="Imágen abstrata das tecnologias HTMH5, CSS3 e Javascript, onde tem um homen branco segurando a logo do css3, uma mulher ruiva empurrando a logo do javascript e outro homem negro segurando a logo do htmh5.">
+            </div>
         </div>
     </section>
-    <section class="white-bg section">
-        <div class="main-content">
-            <h1>Loren</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem eos fugit eum, labore voluptas quibusdam debitis, alias, maxime esse fugiat error earum magni blanditiis explicabo autem quisquam atque est mollitia?</p>
+
+    <section id="intro" class="white-bg section color-red">
+        <div class="main-content history-content">
+            <h2>HTML, CSS e JavaScript</h2>
+            <p>Do inglês Hyper Text Markup Language, o HTML não é considerado uma linguagem de programação. Nele é
+                possível perceber que existem diversos elementos separados, como cabeçalho, título, paragrafos e muitos
+                mais. Toda a organização é feita pelo HTML. Ele é utilizado para criar a estrutura da página e, utiliza
+                as famosas tags (etiquetas) para sinalizar onde cada tipo de elemento será implementado.</p>
+            <p>Cascading Style Sheet, mais conhecido como CSS, é uma linguagem de estilos que, assim como o HTML, também
+                não é considerada uma linguagem de programação. Ela é responsável por separar a parte estrutural da
+                aplicação (que ficará nas mãos do HTML) da parte estética.</p>
+            <p>O Javascript é única linguagem de programação das 3 tecnologias citadas, Ele permite
+                criar conteúdos que se atualizam de forma dinâmica e animada, dando vida às aplicações que antes eram
+                apenas estruturadas com HTML de forma estática.</p>
+            <p>Fonte: <a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes" target="_blank">ALURA</a>.</p>
         </div>
     </section>
+
+    <section id="top3" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Um pouco mais</h2>
+            <p class="grid-description">Fonte do conteúdo: <a href="https://www.devmedia.com.br"
+                    target="_blank">DEVMEDIA</a>.</p>
+
+            <div class="grid">
+                <article>
+                    <h3><a href="https://www.devmedia.com.br/o-que-e-o-html5/25820" target="_blank">HTML 5</a></h3>
+                    <p>HTML é uma abreviação de Hypertext Markup Language, ou seja, Linguagem de Marcação de Hipertexto.
+                        Resumindo, o HTML é uma linguagem usada para a publicação de conteúdo (texto, imagens, vídeos,
+                        áudio etc.) na web.</p>
+                </article>
+                <article>
+                    <h3><a href="https://www.devmedia.com.br/css/" target="_blank">CSS 3</a></h3>
+                    <p>O CSS é uma linguagem de estilização, ou seja, ela é utilizada para definir como os documentos
+                        escritos na linguagem de marcação (HTML ou XML) devem ser apresentados em termos de formatação e
+                        layout. Quando usado junto do HTML, o CSS é a linguagem que utilizamos para customizar as cores,
+                        tamanhos, bordas e outros atributos dos elementos da página.</p>
+                </article>
+                <article>
+                    <h3><a href="https://www.devmedia.com.br/guia/javascript/34372" target="_blank">Javascript</a></h3>
+                    <p>O JavaScript é uma linguagem de programação amplamente utilizada no front-end para diferentes
+                        finalidades. Desde validação de campos à criação de menus, é possível fazer muita coisa usando
+                        essa linguagem que adiciona algum dinamismo às páginas que apenas com HTML e CSS são
+                        consideradas “estáticas”.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section color-red">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Usando CSS transform.</p>
+
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/361x360?r=1" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x361?r=2" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/362x361?r=3" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/361x362?r=4" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/359x360?r=6" alt="random image from unsplash" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content history-content">
+            <h2>pricing</h2>
+            <p>Do inglês Hyper Text Markup Language, o HTML não é considerado uma linguagem de programação. Nele é
+                possível perceber que existem diversos elementos separados, como cabeçalho, título, paragrafos e muitos
+                mais. Toda a organização é feita pelo HTML. Ele é utilizado para criar a estrutura da página e, utiliza
+                as famosas tags (etiquetas) para sinalizar onde cada tipo de elemento será implementado.
+            </p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Content 1</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>área de contato</h2>
+                <p>Este é um formulário fictíceo e os seus elementos são meramente ilustrativos.
+                </p>
+                <p>Seu único propósito é demonstrar esse ambiente e suas caracteristicas provinientes usando HTML e CSS.
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/contato.svg"
+                    alt="Imágen abstrata das tecnologias HTMH5, CSS3 e Javascript, onde tem um homen branco segurando a logo do css3, uma mulher ruiva empurrando a logo do javascript e outro homem negro segurando a logo do htmh5.">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Formulário</legend>
+                    <div class="form-group">
+                        <label for="first-name">Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="exemplo@email.com">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Messagem</label>
+                        <textarea name="mmessage" id="message" cols="30" rows="5" placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar mensagem</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer white-bg">
+        <p><a href="https://github.com/JonasJF360" target="_blank" rel="nofollow">Feito com <span
+                    class="heart">&#9829;</span> por: Jonas J Ferreira</a></p>
+    </footer>
 </body>
 
 </html>
